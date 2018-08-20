@@ -1,0 +1,29 @@
+<view class="container">
+<view class="ar_coverpath">
+    <image src="../../images/example1.jpg" mode="aspectFill"></image>
+</view>
+<view class="ar_cont">
+    <text class="ar_cont_h1">海报设计</text>
+    <text class="ar_cont_price">价格：¥100  </text>
+    <text>   
+     为即将到来的社团文化节设计一张海报
+    </text>
+    <view class="ar_line"></view>
+    <text class="ar_cont_h1">详情描述</text>
+    <text>
+     (1)单纯:形象和色彩必须简单明了(也就是简洁性)。
+
+     (2)统一:海报的造型与色彩必须和谐，要具有统一的协调效果。
+
+     (3)均衡:整个画面须要具有魄力感与均衡效果。
+
+     (4)销售重点:海报的构成要素必须化繁为简，尽量挑选重点来表现
+
+     (5)惊奇:海报无论在形式上或内容上都要出奇创新，具有强大的惊奇效果。
+
+     (6)技能:海报设计需要有高水准的表现技巧，无论绘制或印刷都不可忽视技能性的表现
+    </text>
+    <button class="ar_book" bindtap="bookTap">报名</button>
+</view>
+
+</view>

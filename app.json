@@ -1,0 +1,64 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/category",
+    "pages/logs/logs",
+    "pages/userInfo/userInfo",
+    "pages/chat/chat",
+    "pages/detail/detail"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "position":"bottom",
+    "color": "#000000",
+    "selectedColor": "#7cd5f6",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/首页_c.png"
+        
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "images/分类.png",
+        "selectedIconPath": "images/分类_c.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "发布",
+        "iconPath": "images/发布.png",
+        "selectedIconPath": "images/发布.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "消息",
+        "iconPath": "images/消息.png",
+        "selectedIconPath": "images/消息_c.png"
+      },
+      {
+        "pagePath": "pages/userInfo/userInfo",
+        "text": "我的",
+        "iconPath": "images/我的.png",
+        "selectedIconPath": "images/我的_c.png"
+      }
+      
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
